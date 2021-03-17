@@ -1,5 +1,6 @@
+---
 title: Stackbit Fresh Theme
-baseURL: /
+baseURL: "/"
 params:
   layout_style: overflow
   palette: blue
@@ -13,84 +14,104 @@ params:
     background: dark
     has_nav: true
     nav_links:
-      - type: action
-        template: action
-        label: Home
-        url: /
-        style: link
-      - type: action
-        template: action
-        label: Blog
-        url: /blog/
-        style: link
-      - type: action
-        template: action
-        label: Style Guide
-        url: /style-guide/
-        style: link
-      - type: action
-        template: action
-        label: About
-        url: /about/
-        style: link
-      - type: action
-        template: action
-        label: Contact
-        url: /contact/
-        style: link
+    - type: action
+      template: action
+      label: Home
+      url: "/"
+      style: link
+      icon_class: ''
+      new_window: false
+      no_follow: false
+    - type: action
+      template: action
+      label: Style Guide
+      url: "/style-guide/"
+      style: link
+      icon_class: ''
+      new_window: false
+      no_follow: false
+    - type: action
+      template: action
+      label: About
+      url: "/about/"
+      style: link
+      icon_class: ''
+      new_window: false
+      no_follow: false
+    - type: action
+      template: action
+      label: Contact
+      url: "/contact/"
+      style: link
+      icon_class: ''
+      new_window: false
+      no_follow: false
+    - type: action
+      template: action
+      label: Blog
+      url: "/blog/"
+      style: link
+      icon_class: ''
+      new_window: false
+      no_follow: false
     has_social: true
     social_links:
-      - type: action
-        template: action
-        label: Twitter
-        url: 'https://twitter.com/'
-        style: icon
-        icon_class: twitter
-        new_window: true
-      - type: action
-        template: action
-        label: Instagram
-        url: 'https://www.instagram.com/'
-        style: icon
-        icon_class: instagram
-        new_window: true
-      - type: action
-        template: action
-        label: GitHub
-        url: 'https://github.com/'
-        style: icon
-        icon_class: github
-        new_window: true
-      - type: action
-        template: action
-        label: LinkedIn
-        url: 'https://www.linkedin.com/'
-        style: icon
-        icon_class: linkedin
-        new_window: true
-      - type: action
-        template: action
-        label: DEV
-        url: 'https://dev.to/'
-        style: icon
-        icon_class: dev
-        new_window: true
+    - type: action
+      template: action
+      label: Twitter
+      url: https://twitter.com/
+      style: icon
+      icon_class: twitter
+      new_window: true
+      no_follow: false
+    - type: action
+      template: action
+      label: Instagram
+      url: https://www.instagram.com/
+      style: icon
+      icon_class: instagram
+      new_window: true
+      no_follow: false
+    - type: action
+      template: action
+      label: GitHub
+      url: https://github.com/
+      style: icon
+      icon_class: github
+      new_window: true
+      no_follow: false
+    - type: action
+      template: action
+      label: LinkedIn
+      url: https://www.linkedin.com/
+      style: icon
+      icon_class: linkedin
+      new_window: true
+      no_follow: false
+    - type: action
+      template: action
+      label: DEV
+      url: https://dev.to/
+      style: icon
+      icon_class: dev
+      new_window: true
+      no_follow: false
   footer:
     type: footer
     template: footer
-    content: >-
-      &copy; Stackbit. All rights reserved. This Jamstack site was created with
-      <a href="https://www.stackbit.com/?utm_source=deployed-footer"
-      target="_blank" rel="noopener">Stackbit</a>. Create yours <a
-      href="https://app.stackbit.com/create?theme=fresh&utm_source=deployed-footer"
-      target="_blank" rel="noopener">now</a>
-  domain: 'https://majestic-tortoise-1f3b3.netlify.app'
+    content: '&copy; Stackbit. All rights reserved. This Jamstack site was created
+      with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
+      rel="noopener">Stackbit</a>. Create yours <a href="https://app.stackbit.com/create?theme=fresh&utm_source=deployed-footer"
+      target="_blank" rel="noopener">now</a>'
+    links: []
+  domain: https://majestic-tortoise-1f3b3.netlify.app
+  favicon: ''
 taxonomies:
   stub: stub
 disableKinds:
-  - RSS
-  - taxonomy
-  - taxonomyTerm
+- RSS
+- taxonomy
+- taxonomyTerm
 markup:
   goldmark:
     renderer:
