@@ -20,14 +20,6 @@ fields:
   name: img_alt
   label: Image Alt Text
   description: The alt text of the image.
-- type: field_group
-  name: seo
-  label: Seo
-  fields:
-  - type: include
-    name: include_stackbit_page_meta
-    label: Page meta data
-    template: stackbit_page_meta
 - type: text
   name: layout
   label: Layout
