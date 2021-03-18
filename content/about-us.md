@@ -6,3 +6,4 @@ subtitle = "This is  about us page"
 title = "About us"
 
 +++
+![](/images/intro.jpg "test")
