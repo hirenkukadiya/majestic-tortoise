@@ -11,7 +11,7 @@ params:
     tagline: Header Tagline
     profile_img: images/avatar.png
     profile_img_alt: Author avatar
-    background: light
+    background: dark
     has_nav: true
     nav_links:
     - type: action
@@ -24,16 +24,8 @@ params:
       no_follow: false
     - type: action
       template: action
-      label: Style Guide
-      url: "/style-guide/"
-      style: link
-      icon_class: ''
-      new_window: false
-      no_follow: false
-    - type: action
-      template: action
       label: About
-      url: "/about/"
+      url: "/about-us/"
       style: link
       icon_class: ''
       new_window: false
@@ -50,6 +42,14 @@ params:
       template: action
       label: Blog
       url: "/blog/"
+      style: link
+      icon_class: ''
+      new_window: false
+      no_follow: false
+    - type: action
+      template: action
+      label: Style Guide
+      url: "/style-guide/"
       style: link
       icon_class: ''
       new_window: false
