@@ -7,7 +7,8 @@ sections:
   title: Hi, I'm Herry
   section_id: hero
   content: This section can contain a subtitle or tagline. The recommended length
-    is one to three sentences, but can be changed as you prefer.
+    is one to three sentences, but can be changed as you prefer. this is also call
+    header section...
   actions: []
 - type: section_content
   template: section_content
